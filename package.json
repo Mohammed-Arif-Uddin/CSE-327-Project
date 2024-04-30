@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "howler": "^2.2.3",
+    "number-words": "^1.1.1",
+    "react-bootstrap": "^2.7.2",
+    "react-speech-recognition": "^3.10.0",
+    "tts-js": "^1.0.1",
+    "words-to-numbers": "^1.5.1"
+  }
+}

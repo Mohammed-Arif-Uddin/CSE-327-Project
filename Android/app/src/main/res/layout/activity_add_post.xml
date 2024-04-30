@@ -1,0 +1,241 @@
+<!--<androidx.constraintlayout.widget.ConstraintLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".AddPostActivity">-->
+
+<!--  <RelativeLayout-->
+<!--      android:layout_width="match_parent"-->
+<!--      android:layout_height="match_parent"-->
+<!--      android:padding="16dp">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewTitle"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Post Rent Ads"-->
+<!--        android:textColor="@color/purple_500"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginBottom="16dp"/>-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextLocationName"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="78dp"-->
+<!--        android:layout_below="@id/textViewTitle"-->
+<!--        android:hint="Location Name"-->
+<!--        android:inputType="text" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextRentAmount"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:layout_below="@id/editTextLocationName"-->
+<!--        android:hint="Rent Amount in BDT"-->
+<!--        android:inputType="number" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextSize"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="84dp"-->
+<!--        android:layout_below="@id/editTextRentAmount"-->
+<!--        android:hint="Size in sq ft"-->
+<!--        android:inputType="number" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextDescription"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="119dp"-->
+<!--        android:layout_below="@id/editTextSize"-->
+<!--        android:hint="Description"-->
+<!--        android:inputType="textMultiLine"-->
+<!--        android:minLines="3" />-->
+
+<!--    &lt;!&ndash; Floating Action Microphone Buttons &ndash;&gt;-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnPickLocation"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="254dp"-->
+<!--        android:text="Pick Location" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonImage"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_above="@+id/buttonPostAd"-->
+<!--        android:layout_marginBottom="56dp"-->
+<!--        android:backgroundTint="#FF4081"-->
+<!--        android:text="Select Image" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonPostAd"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="88dp"-->
+<!--        android:background="@drawable/btn_bg"-->
+<!--        android:text="Post" />-->
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/micButton1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+
+<!--        android:layout_above="@+id/buttonPostAd"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_marginEnd="72dp"-->
+<!--        android:layout_marginBottom="109dp"-->
+<!--        android:src="@drawable/ic_mic" />-->
+
+<!--    <com.google.android.material.switchmaterial.SwitchMaterial-->
+<!--        android:id="@+id/languageSwitchButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_above="@+id/buttonPostAd"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginEnd="65dp"-->
+<!--        android:layout_marginBottom="60dp"-->
+<!--        android:textOff="ENG"-->
+<!--        android:textOn="BN"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/buttonImage" />-->
+
+
+<!--  </RelativeLayout>-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPostActivity">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post Rent Ads"
+        android:textColor="@color/purple_500"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextLocationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:hint="Location Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextRentAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextLocationName"
+        android:hint="Rent Amount in BDT"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextRentAmount"
+        android:hint="Size in sq ft"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextSize"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:minLines="3" />
+
+    <!-- Floating Action Microphone Buttons -->
+
+    <Button
+        android:id="@+id/btnPickLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDescription"
+        android:text="Pick Location" />
+
+    <EditText
+        android:id="@+id/editTextPickedLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnPickLocation"
+        android:hint="Picked Location"
+
+        android:textColor="#000000"
+        android:enabled="false"
+        android:focusable="false"
+        android:inputType="textMultiLine"
+        android:gravity="start"
+        android:lines="3"
+        android:minLines="2"
+        android:maxLines="4"
+        android:scrollHorizontally="false"
+        android:scrollbars="vertical"
+        android:background="@drawable/edit_text_rounded_bg"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/buttonImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPickedLocation"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FF4081"
+        android:text="Select Image" />
+
+    <Button
+        android:id="@+id/buttonPostAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonImage"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_bg"
+        android:text="Post" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/micButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonPostAd"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_mic" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/languageSwitchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/micButton1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:textOff="ENG"
+        android:textOn="BN"
+        app:layout_constraintTop_toBottomOf="@id/buttonImage" />
+
+  </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
